@@ -1,8 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Header from '../pages/components/Header'
+import {useState, useEffect} from "react"
 
 export default function Home() {
+
+  const [myChoice, setMyChoice] = useState("");
+  const [score, setScore] = useState(0);
   return (
     <div className={styles.container}>
       <Head>
@@ -13,9 +18,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <Header score={score}/>
+
 
         <p className={styles.description}>
           Get started by editing{' '}
