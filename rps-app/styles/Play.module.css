@@ -46,7 +46,7 @@
 }
 
 .degOneThirtyFive {
-    transform: rotate(136deg) translate(-72px) rotate(-176deg);
+    transform: rotate(136deg) translate(-30px) rotate(-176deg);
 }
 
 .degOneEighty {
@@ -70,8 +70,8 @@
     border: 1rem solid hsl(39, 89%, 49%);
     padding: 1rem;
     margin: 5px;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     cursor: pointer;
     background-color: white;
@@ -82,8 +82,8 @@
     border: 1rem solid hsl(230, 89%, 62%);
     padding: 1rem;
     margin: 5px;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     cursor: pointer;
     background-color: white;
@@ -94,8 +94,8 @@
     border: 1rem solid hsl(349, 71%, 52%);
     padding: 1rem;
     margin: 5px;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     cursor: pointer;
     background-color: white;
@@ -106,8 +106,8 @@
     border: 1rem solid hsl(261, 73%, 60%);
     padding: 1rem;
     margin: 5px;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     cursor: pointer;
     background-color: white;
@@ -118,8 +118,8 @@
     border: 1rem solid hsl(189, 59%, 53%);
     padding: 1rem;
     margin: 5px;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     cursor: pointer;
     background-color: white;

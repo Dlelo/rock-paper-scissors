@@ -5,7 +5,11 @@
     bottom: 0;
 }
 
-
-/* .rules{
-
-} */
+.rules {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    font-size: larger;
+    color: white;
+}

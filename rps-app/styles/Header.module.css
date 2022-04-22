@@ -1,8 +1,12 @@
 .container {
-    padding: 0 2rem;
+    padding: 0.6rem;
+    margin: 5rem 10rem;
+    border: 2px solid rgba(245, 245, 245, 0.544);
+    border-radius: 10px;
+    display: flex;
 }
 
-.main {
+.mainleft {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -10,6 +14,34 @@
     align-items: center;
 }
 
+.scoreContainer {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainRight {
+    flex: 3 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.score {
+    color: blue;
+    font-size: medium;
+}
+
+.scoreCount {
+    color: grey;
+    font-size: xxx-large;
+}
+
 .title {
-    font-size: 4rem
+    font-size: 1.2rem;
+    color: white;
 }

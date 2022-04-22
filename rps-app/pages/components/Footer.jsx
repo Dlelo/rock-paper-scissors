@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../components/Rules";
-import styles from '../../styles/Rules.module.css'
+import styles from '../../styles/Footer.module.css'
 
 const Footer = () => {
   const [showModal, setShowModal] = useState(false);
