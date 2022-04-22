@@ -5,6 +5,7 @@ import Header from '../pages/components/Header'
 import Play from '../pages/components/Play'
 import {useState, useEffect} from "react"
 import Game from '../pages/components/Game'
+import Footer from '../pages/components/Footer'
 
 export default function Home() {
 
@@ -22,8 +23,9 @@ export default function Home() {
         <link href='https://fonts.google.com/specimen/Barlow+Semi+Condensed'/>
       </Head>
 
+      <Header score={score}/>
+
       <main className={styles.main}>
-        <Header score={score}/>
           {
 
               myChoice === "" ?
@@ -33,8 +35,11 @@ export default function Home() {
               <Game score={score} setScore={setScore} myChoice={myChoice} setMyChoice={setMyChoice}/>
              )
           }
+       <div id="modal-root"></div>
 
       </main>
+
+      <Footer/>
     </div>
   )
 }
