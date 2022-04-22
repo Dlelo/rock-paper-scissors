@@ -1,5 +1,5 @@
 .container {
-    padding: 0 2rem;
+    padding: 2rem;
 }
 
 .main {
@@ -10,37 +10,117 @@
     align-items: center;
 }
 
-.rock {
-    background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+.icon {
     padding: 1rem;
     margin: 5px;
     border-radius: 10%;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: grey;
+}
+
+.circle {
+    display: block;
+    position: absolute;
+    height: 30rem;
+    width: 30rem;
+    background: transparent;
+    border-radius: 51%;
+    text-align: center;
+    line-height: 100px;
+    border: 1rem solid hsl(215, 37%, 14%);
+}
+
+.degZero {
+    transform: rotate(1deg) translate(350px) rotate(-30deg);
+}
+
+.degFortyFive {
+    transform: rotate(400deg) translate(380px) rotate(0deg);
+}
+
+.degnighty {
+    transform: rotate(91deg) translate(251px) rotate(-91deg);
+}
+
+.degOneThirtyFive {
+    transform: rotate(136deg) translate(-72px) rotate(-176deg);
+}
+
+.degOneEighty {
+    transform: rotate(181deg) translate(251px) rotate(-181deg);
+}
+
+.degTwoTwentyFive {
+    transform: rotate(165deg) translate(280px) rotate(241deg);
+}
+
+.degTwoSeventy {
+    transform: rotate(266deg) translate(460px) rotate(20deg)
+}
+
+.deg-threefifteen {
+    transform: rotate(316deg) translate(251px) rotate(-316deg);
+}
+
+.scissors {
+    /* color: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%)) */
+    border: 1rem solid hsl(39, 89%, 49%);
+    padding: 1rem;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
 }
 
 .paper {
-    background-image: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+    /* color: linear-gradient( hsl(230, 89%, 62%), hsl(230, 89%, 65%)) */
+    border: 1rem solid hsl(230, 89%, 62%);
     padding: 1rem;
     margin: 5px;
-    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
 }
 
-.scissor {
-    background-image: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+.rock {
+    /* color: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%)) */
+    border: 1rem solid hsl(349, 71%, 52%);
     padding: 1rem;
     margin: 5px;
-    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
 }
 
 .lizard {
-    background-image: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+    /* color: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%)) */
+    border: 1rem solid hsl(261, 73%, 60%);
     padding: 1rem;
     margin: 5px;
-    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
 }
 
 .spock {
-    background-image: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+    /* color: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%)) */
+    border: 1rem solid hsl(189, 59%, 53%);
     padding: 1rem;
     margin: 5px;
-    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
 }
