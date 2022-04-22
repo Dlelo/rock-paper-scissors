@@ -4,12 +4,14 @@ import styles from '../styles/Home.module.css'
 import Header from '../pages/components/Header'
 import Play from '../pages/components/Play'
 import {useState, useEffect} from "react"
-import Game from '../pages/game'
+import Game from '../pages/components/Game'
 
 export default function Home() {
 
   const [myChoice, setMyChoice] = useState("");
   const [score, setScore] = useState(0);
+  const [counter, setCounter] = useState(0);
+
 
   return (
     <div className={styles.container}>
@@ -22,14 +24,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <Header score={score}/>
-
           {
 
               myChoice === "" ?
               (
                <Play setMyChoice={setMyChoice}/>
                ) : (
-              <Game score={score} setScore={setScore} setHouse={setHouse}/>
+              <Game score={score} setScore={setScore} myChoice={myChoice} setMyChoice={setMyChoice}/>
              )
           }
 
