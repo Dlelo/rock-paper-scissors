@@ -20,3 +20,12 @@
     justify-content: space-between;
     margin-bottom: 30px;
 }
+
+.modalClose {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.modalTitle {
+    color: #8a90ac;
+}

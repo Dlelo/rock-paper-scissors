@@ -1,0 +1,105 @@
+.game {
+    padding: 0.6rem;
+    margin: 0.5rem 5rem;
+    display: flex;
+    width: 100%;
+}
+
+.gameLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameCenter {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.gameRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameTitle {
+    color: white
+}
+
+.gameButton {
+    background-color: white;
+    border-color: white;
+    color: #1f3756;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.scissors {
+    /* color: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%)) */
+    border: 1rem solid hsl(39, 89%, 49%);
+    padding: 1rem;
+    margin: 5px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.paper {
+    /* color: linear-gradient( hsl(230, 89%, 62%), hsl(230, 89%, 65%)) */
+    border: 1rem solid hsl(230, 89%, 62%);
+    padding: 1rem;
+    margin: 5px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.rock {
+    /* color: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%)) */
+    border: 1rem solid hsl(349, 71%, 52%);
+    padding: 1rem;
+    margin: 5px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.lizard {
+    /* color: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%)) */
+    border: 1rem solid hsl(261, 73%, 60%);
+    padding: 1rem;
+    margin: 5px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.spock {
+    /* color: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%)) */
+    border: 1rem solid hsl(189, 59%, 53%);
+    padding: 1rem;
+    margin: 5px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}

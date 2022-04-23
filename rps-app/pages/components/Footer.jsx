@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className={styles.footer}>
 
         <button className={styles.rules} onClick={() => setShowModal(true)}>
-          Rules
+          RULES
         </button>
         <Modal
           onClose={() => setShowModal(false)}
