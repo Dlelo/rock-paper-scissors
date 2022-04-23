@@ -1,11 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Header from '../pages/components/Header'
-import Play from '../pages/components/Play'
-import {useState, useEffect} from "react"
-import Game from '../pages/components/Game'
-import Footer from '../pages/components/Footer'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import Header from '../pages/components/Header';
+import Play from '../pages/components/Play';
+import {useState, useEffect} from "react";
+import Game from '../pages/components/Game';
+import Footer from '../pages/components/Footer';
 
 export default function Home() {
 
@@ -21,7 +20,7 @@ export default function Home() {
         <meta name="description" content="Rock Paper Scissiors" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet" />
       </Head>
 

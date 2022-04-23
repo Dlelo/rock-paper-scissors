@@ -1,20 +1,44 @@
 {
-  "name": "rps-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
-  },
-  "devDependencies": {
-    "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5"
-  }
+    "name": "rps-app",
+    "version": "0.1.0",
+    "private": true,
+    "jest": {
+        "verbose": true,
+        "testEnvironment": "jsdom",
+        "moduleNameMapper": {
+            "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+            "\\.(css|less)$": "identity-obj-proxy"
+        },
+        "testURL": "http://localhost/",
+        "testMatch": [
+            "**/__tests__/*.js?(x)"
+        ],
+        "setupFilesAfterEnv": [
+            "./jest.setup.js"
+        ]
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.1.1",
+        "jest": "^27.5.1",
+        "next": "12.1.5",
+        "react": "18.0.0",
+        "react-dom": "18.0.0"
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^10.4.9",
+        "babel-jest": "^27.5.1",
+        "eslint": "8.13.0",
+        "eslint-config-next": "12.1.5",
+        "identity-obj-proxy": "^3.0.0",
+        "jest": "^26.4.2"
+    }
 }
