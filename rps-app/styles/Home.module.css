@@ -3,7 +3,7 @@
 }
 
 .main {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding: 3rem 0;
     flex: 1;
     display: flex;
@@ -114,5 +114,8 @@
     .grid {
         width: 100%;
         flex-direction: column;
+    }
+    .main {
+        min-height: 0;
     }
 }
