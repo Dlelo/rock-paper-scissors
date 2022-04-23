@@ -45,3 +45,13 @@
     font-size: 1.2rem;
     color: white;
 }
+
+@media(max-width:600px) {
+    .container {
+        padding: 0.6rem;
+        width: 100%;
+        border: 2px solid rgba(245, 245, 245, 0.544);
+        border-radius: 10px;
+        display: flex;
+    }
+}

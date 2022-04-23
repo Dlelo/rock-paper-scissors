@@ -29,6 +29,7 @@
     background: transparent;
     border-radius: 51%;
     text-align: center;
+    padding-left: 1rem;
     line-height: 100px;
     border: 1rem solid hsl(215, 37%, 14%);
 }
